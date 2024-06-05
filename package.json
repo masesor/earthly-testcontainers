@@ -1,0 +1,16 @@
+{
+  "name": "earthly-testcontainers",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --max-old-space-size=32768 node_modules/.bin/vitest run --testTimeout=120000"
+  },
+  "devDependencies": {
+    "@testcontainers/mongodb": "^10.9.0",
+    "testcontainers": "^10.9.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vitest": "^1.6.0"
+  }
+}
